@@ -74,7 +74,7 @@ export default {
                             err.response.data.message: errMessage;
                     }
                     this.userApp.releaseScreen();
-                    this.userApp.notify('E', errMessage, 'Loading Error');
+                    this.userApp.notify('E', errMessage, 'Attention !');
                 });
         }
     }
